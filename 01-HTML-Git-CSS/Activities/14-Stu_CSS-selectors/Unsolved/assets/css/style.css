@@ -1,0 +1,34 @@
+/* TODO: universal change to the font */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* TODO: changes the color of the page */
+body {
+  background-color: lemonchiffon;
+}
+
+/* Changes the header and the footer with designated styling changes */
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* TODO: changes highlighted text to bold */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* TODO: changes the color of the comment section */
+#contact-section {
+  background-color: #f0ead6;
+}

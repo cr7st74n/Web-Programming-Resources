@@ -27,3 +27,7 @@ pre, code {
 ol, ul {
   list-style: none;
 }
+
+h3:hover + .resources {
+  background-color: blue;
+}

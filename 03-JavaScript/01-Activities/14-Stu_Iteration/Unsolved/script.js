@@ -1,5 +1,6 @@
 //WRITE YOUR CODE BELOW
 
+<<<<<<< HEAD
 // var students = ["cris","luis","chino","natt","soul"];
 
 // console.log(students.length)
@@ -21,3 +22,12 @@ function try1(numero){
 var cosa = try1(a);
 
 console.log(cosa);
+=======
+var studentNames = ['Frank', 'Susan', 'Kyle', 'Mary', 'Paul'];
+
+console.log (studentNames.length);
+
+for (var i = 0; i < studentNames.length; i++) {
+    console.log ('Great to see you ' + studentNames[i])
+}
+>>>>>>> 60ff39f36be18a5071e9167cb67e3e2faee5cc4e

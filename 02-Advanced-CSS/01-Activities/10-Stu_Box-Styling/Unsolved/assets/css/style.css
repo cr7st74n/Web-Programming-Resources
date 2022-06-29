@@ -65,18 +65,25 @@ footer {
 
 /* TODO: Add properties to the cards to achieve the required look */
 .card {
+<<<<<<< HEAD
   border-radius: 25px;
   box-shadow: 10px 10px 10px;
   transform: rotate(23deg);
+=======
+  border-radius: 2em;
+>>>>>>> 60ff39f36be18a5071e9167cb67e3e2faee5cc4e
   border-style: solid;
   border-width: 1px;
   padding: 10px;
   margin: 20px;
   flex: 0 0 300px;
+  box-shadow: 1em 1em 2em;
+  transform: rotate(10deg)
 }
 
 .card header {
   padding: 20px;
+  border-radius: 1em 1em 0 0;
 }
 
 .card p {
@@ -85,6 +92,7 @@ footer {
 
 .card img {
   width: 100%;
+  border-radius: 0 0 1em 1em;
 }
 
 @media screen and (max-width: 768px) {
