@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "name": "04-stu_arrow-function-practice",
+  "description": "Work with a partner to resolve the following issue(s):",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

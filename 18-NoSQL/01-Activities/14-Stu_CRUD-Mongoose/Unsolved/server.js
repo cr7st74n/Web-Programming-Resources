@@ -60,7 +60,13 @@ app.delete('/find-one-delete/:genre', (req, res) => {
 });
 
 app.post('/find-one-update/:genre', (req, res) => {
-  // TODO: Write a route that will find the first instance of a document that contains a name with the value equal to 'Kids'
+  Genre.findOne({_id: req.params.genre})
+  .update({name:req.body.name, new: true})
+  .then(update_kid=>{
+    res.json(update_kid);
+  })
+  // 62fa693b6178e39b44ae75a4
+  //TODO: Write a route that will find the first instance of a document that contains a name with the value equal to 'Kids'
   // Update that name with the value given from the URL param
   // Return the updated document
 });

@@ -8,7 +8,7 @@ var person = {
     console.log(this.name + " is thinking...");
     setTimeout(function() {
       console.log(this.name + "!");
-    }, 100);
+    }, 1000);
   }
 };
 
@@ -21,7 +21,7 @@ var person = {
   name: "Hodor",
   saySomething: function() {
     console.log(this.name + " is thinking...");
-    setTimeout(() => console.log(this.name + "!"), 100);
+    setTimeout(() => console.log(this.name + "!"), 2000);
   }
 };
 
